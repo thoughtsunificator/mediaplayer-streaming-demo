@@ -35,5 +35,6 @@
 		"url": "https://github.com/thoughtsunificator/mediaplayer-streaming-demo/issues"
 	},
 	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
-	"license": "MIT"
+	"license": "MIT",
+	"version": "0.0.1"
 }
