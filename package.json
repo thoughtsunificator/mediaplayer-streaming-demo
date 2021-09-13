@@ -1,0 +1,39 @@
+{
+	"name": "mediaplayer-streaming-demo",
+	"description": "Demo for mediaplayer-streaming",
+	"scripts": {
+		"start": "rollup --config rollup.config.dev.js --watch",
+		"build": "rollup --config rollup.config.prod.js"
+	},
+	"devDependencies": {
+		"@rollup/plugin-alias": "^3.1.2",
+		"@rollup/plugin-node-resolve": "^13.0.0",
+		"browser-sync": "^2.26.7",
+		"eslint": "^7.0.0",
+		"postcss": "^8.3.6",
+		"postcss-import": "^14.0.2",
+		"rollup": "^2.50.4",
+		"rollup-plugin-copy-watch": "^0.0.1",
+		"rollup-plugin-delete": "^2.0.0",
+		"rollup-plugin-livereload": "^2.0.0",
+		"rollup-plugin-postcss": "^4.0.0",
+		"rollup-plugin-root-import": "^1.0.0",
+		"rollup-plugin-serve": "^1.1.0",
+		"rollup-plugin-terser": "^7.0.2"
+	},
+	"dependencies": {
+		"css-generics": "file:../css-generics",
+		"domodel": "file:../domodel",
+		"mediaplayer-core": "file:../mediaplayer-core",
+		"mediaplayer-streaming": "file:../mediaplayer-streaming"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thoughtsunificator/mediaplayer-streaming-demo.git"
+	},
+	"bugs": {
+		"url": "https://github.com/thoughtsunificator/mediaplayer-streaming-demo/issues"
+	},
+	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
+	"license": "MIT"
+}
