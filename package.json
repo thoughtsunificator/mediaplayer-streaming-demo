@@ -21,12 +21,6 @@
 		"rollup-plugin-serve": "^1.1.0",
 		"rollup-plugin-terser": "^7.0.2"
 	},
-	"dependencies": {
-		"css-generics": "file:../css-generics",
-		"domodel": "file:../domodel",
-		"mediaplayer-core": "file:../mediaplayer-core",
-		"mediaplayer-streaming": "file:../mediaplayer-streaming"
-	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/thoughtsunificator/mediaplayer-streaming-demo.git"
@@ -36,5 +30,10 @@
 	},
 	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
 	"license": "MIT",
-	"version": "0.0.2"
+	"version": "0.0.2",
+	"dependencies": {
+		"@thoughtsunificator/mediaplayer-core": "^1.0.6",
+		"@thoughtsunificator/mediaplayer-streaming": "^1.0.5",
+		"css-generics": "^1.0.0"
+	}
 }
